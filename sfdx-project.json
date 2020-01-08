@@ -2,10 +2,17 @@
   "packageDirectories": [
     {
       "path": "src",
-      "default": true
+      "default": true,
+      "package": "ForceLog",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT"
     }
   ],
   "namespace": "forcelog",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "43.0"
+  "sourceApiVersion": "46.0",
+  "packageAliases": {
+    "ForceLog": "0Ho2e000000001iCAA",
+    "ForceLog@1.0.0-1": "04t2e0000000SRKAA2"
+  }
 }
